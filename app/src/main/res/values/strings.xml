@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">逗宠萌物</string>
+
+    <!--  BluetoothChat -->
+    <string name="not_connected">尚未连接蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用，请重试！</string>
+    <string name="bt_enabled_success">蓝牙开启成功</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接到 <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">未连接</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">搜索中...</string>
+    <string name="select_device">选择一个蓝牙设备进行连接</string>
+    <string name="none_paired">没有已配对设备</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">搜索蓝牙设备</string>
+
+    <!-- Options Menu -->
+    <string name="connect">连接蓝牙设备</string>
+    <string name="custom_code">自定义编码</string>
+
+</resources>

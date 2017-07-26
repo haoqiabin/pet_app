@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tip_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textColor="#5a6c78"
+        android:textSize="30sp" />
+
+    <cn.haoqiabin.pet.rocker.RockerView
+        android:id="@+id/rockerView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:text="www.haoqiabin.cn" />
+
+    <Button
+        android:id="@+id/spinCW"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="←"
+        android:layout_below="@+id/rockerView"
+        android:layout_alignLeft="@id/rockerView"
+         />
+
+    <Button
+        android:id="@+id/spinACW"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="→"
+        android:layout_below="@+id/rockerView"
+        android:layout_alignRight="@+id/rockerView"
+
+        />
+
+</RelativeLayout>

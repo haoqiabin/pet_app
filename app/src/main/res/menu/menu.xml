@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_connect"
+        android:icon="@drawable/device_access_bluetooth"
+        android:title="@string/connect"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/menu_preferences"
+        android:title="@string/custom_code"
+        android:showAsAction="ifRoom"/>
+</menu>
